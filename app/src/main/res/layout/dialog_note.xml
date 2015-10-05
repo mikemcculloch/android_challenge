@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/full_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/half_margin"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/appLargeFont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/half_margin"
+            android:text="@string/buton_text_note" />
+
+        <TextView
+            android:id="@+id/textview_note_readonly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            style="@style/appMediumFontStandard"
+            android:layout_marginBottom="@dimen/half_margin"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:singleLine="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_close"
+            style="@style/buttonStandard"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:elevation="10dp"
+            android:text="@string/text_close" />
+    </LinearLayout>
+</LinearLayout>

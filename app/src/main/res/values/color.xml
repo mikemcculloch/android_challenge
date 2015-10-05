@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#00ADEF</color>
+    <color name="ColorPrimaryDark">#2B3747</color>
+    <color name="colorAccent">#1D4988</color> <!--FAB COLOR-->
+
+    <color name="black">#000000</color>
+    <color name="red">#f00</color>
+    <color name="blue_light">#1D4988</color>
+    <color name="green">#a4c639</color>
+
+    <color name="blue_new">#00ADEF</color>
+
+    <color name="detail">#D3D3D3</color>
+    <color name="textback">#ffffff</color>
+</resources>
