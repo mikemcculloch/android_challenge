@@ -150,7 +150,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right|end"
                     android:elevation="10dp"
-                    android:visibility="gone"
                     android:text="@string/buton_text_note" />
             </LinearLayout>
 

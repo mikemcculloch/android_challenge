@@ -78,6 +78,7 @@ public class HomeItemRecycler extends RecyclerView.Adapter<RecyclerObjects.HomeI
                 }
             });
 
+            homeItemViewHolder.vhNoteButton.setVisibility(View.GONE);
             final int finalMemberId = memberId;
             if (_activity.getNoteCount(memberId) != 0)
                 homeItemViewHolder.vhNoteButton.setVisibility(View.VISIBLE);
